@@ -1,0 +1,53 @@
+/* QuickServices.css */
+.quick-services {
+    padding: 2rem 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .quick-services .section-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .service-card {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .service-icon {
+    width: 110px;
+    height: 110px;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+  }
+  
+  .service-card h3 {
+    font-size: 1.25rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-card p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  

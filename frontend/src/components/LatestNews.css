@@ -1,0 +1,53 @@
+.latest-news {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .latest-news__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .latest-news__grid {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .latest-news__card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+  }
+  
+  .latest-news__image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .latest-news__content {
+    padding: 1rem;
+  }
+  
+  .latest-news__date {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .latest-news__headline {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .latest-news__author {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
