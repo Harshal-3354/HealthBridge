@@ -3,3 +3,19 @@ node_modules/
 .DS_Store
 .vscode/
 dist/
+
+# Ignore node_modules in backend
+backend/node_modules/
+
+# Ignore .env files (important for security)
+backend/.env
+frontend/.env
+
+# Ignore OS & Editor-specific files
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore build/dist folders
+backend/dist/
+frontend/dist/
